@@ -12,6 +12,7 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
 }
 
 /* Project Styles */
@@ -31,7 +32,7 @@ body {
     flex: 0.3;
     margin: 3px;
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: flex 0.8s ease-in-out;
 }
 .panel h3 {
     font-size: 2rem;
@@ -47,6 +48,7 @@ body {
 }
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* Media Query */
